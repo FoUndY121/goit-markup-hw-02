@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    background-color: #f2f2f2;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Typography */
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header styles */
+.header-link,
+.header-kontakt {
+    list-style-type: none;
+}
+
+.header-kontakt {
+    text-align: right;
+}
+
+/* Button section styles */
+.button {
+    text-align: center;
+    background-color: #2e2f42;
+}
+
+.button h1 {
+    color: white;
+}
+
+/* Feature section styles */
+.feature-text li {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+/* Team section styles */
+.our-team h3 {
+    font-size: 20px;
+    list-style-type: none;
+    background-color: #f4f4fd;
+}
+
+/* Footer styles */
+.footer {
+    font-size: 16px;
+    color: white;
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+    color: white;
+}
