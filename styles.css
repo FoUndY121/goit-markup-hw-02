@@ -49,9 +49,11 @@ p {
 }
 
 /* Team section styles */
+.our-team{
+    list-style-type: none;
+}
 .our-team h3 {
     font-size: 20px;
-    list-style-type: none;
     background-color: #f4f4fd;
 }
 
