@@ -1,34 +1,60 @@
 /* General styles */
 body {
-    background-color: #f2f2f2;
+    color: #434455;
+    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
 }
 
-/* Typography */
-h1 {
-    font-size: 56px;
-}
 
-h2 {
-    font-size: 36px;
-    text-align: center;
-}
-
-h3 {
-    font-size: 20px;
-}
 
 p {
     font-size: 16px;
 }
 
 /* Header styles */
-.header-link,
-.header-kontakt {
-    list-style-type: none;
+.header-li{
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color: #2e2f42;
+}
+.header-li:hover:focus{
+    color: #404bbf;
 }
 
-.header-kontakt {
+
+
+
+.header-link,
+.header-info li {
+    list-style-type: none;
+    font-style: normal
+}
+.header-kon{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.header-kon:focus:hover{
+    color: #434455;
+}
+/* Стили для логотипа */
+.logo-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none; /* Убирает подчеркивание */
+}
+
+/* Стили для span внутри логотипа */
+.logo-span {
+    color: #2e2f42;
+}
+
+.header-info {
     text-align: right;
 }
 
@@ -37,12 +63,41 @@ p {
     text-align: center;
     background-color: #2e2f42;
 }
-
-.button h1 {
-    color: white;
+.button-button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.button-button:hover:focus{
+    background-color: #404BBF;
+   cursor: pointer;
 }
 
+
+.button-zag {
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    font-size: 56px;
+    color: white;
+}
+.feature-text >li >h3{
+    font-size: 20px;
+    font-weight:500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 /* Feature section styles */
+
+.feature-text >li >p{
+   font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .feature-text li {
     list-style-type: none;
     font-size: 16px;
@@ -52,9 +107,46 @@ p {
 .our-team{
     list-style-type: none;
 }
-.our-team h3 {
+.section-team h3 {
     font-size: 20px;
     background-color: #f4f4fd;
+    letter-spacing: 0.02em;
+    font_weight: 500;
+    line-height:1.2;
+}
+.section-team p{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.2;
+    font-weight: 400;
+
+
+}
+.section-team{
+    background-color:  #F4F4FD;
+}
+.section-portfolio h2{
+    font-size: 36px;
+    text-align: center;
+    color: #2e2f42;
+    line-height:1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.section-portfolio h3{
+    font-weight: 500;
+    color: #2e2f42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+}
+.section-portfolio p{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.2;
+    font-weight: 400;
 }
 
 /* Footer styles */
@@ -65,5 +157,23 @@ p {
 }
 
 .footer-logo {
-    color: white;
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none; /* Убирает подчеркивание */
 }
+    .logo-span-footer {
+        color: #f4f4fd;
+    }
+    .footer p{
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+        line-height: 1.5;
+    }
+
