@@ -1,16 +1,3 @@
-/* General styles */
-body {
-    color: #434455;
-    background-color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-}
-
-
-
-p {
-    font-size: 16px;
-}
-
 /* Header styles */
 .header-li{
     line-height:1.5;
@@ -20,10 +7,6 @@ p {
 .header-li:hover:focus{
     color: #404bbf;
 }
-
-
-
-
 .header-link,
 .header-info li {
     list-style-type: none;
@@ -48,16 +31,22 @@ p {
     color: #4d5ae5;
     text-decoration: none; /* Убирает подчеркивание */
 }
-
 /* Стили для span внутри логотипа */
 .logo-span {
     color: #2e2f42;
 }
-
 .header-info {
     text-align: right;
 }
-
+/* General styles */
+body {
+    color: #434455;
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+p {
+    font-size: 16px;
+}
 /* Button section styles */
 .button {
     text-align: center;
@@ -76,22 +65,19 @@ p {
     background-color: #404BBF;
    cursor: pointer;
 }
-
-
 .button-zag {
     letter-spacing: 0.02em;
     line-height: 1.07;
     font-size: 56px;
     color: white;
 }
+/* Feature section styles */
 .feature-text >li >h3{
     font-size: 20px;
     font-weight:500;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-/* Feature section styles */
-
 .feature-text >li >p{
    font-size: 16px;
     font-weight: 400;
@@ -103,49 +89,33 @@ p {
     font-size: 16px;
 }
 
-/* Team section styles */
+/*OUR TEAM*/
 .our-team{
     list-style-type: none;
 }
-.section-team h3 {
-    font-size: 20px;
-    background-color: #f4f4fd;
-    letter-spacing: 0.02em;
-    font_weight: 500;
-    line-height:1.2;
+.team-img{
+    background-color: #FFFFFF
 }
-.section-team p{
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;
-    line-height: 1.2;
-    font-weight: 400;
 
-
-}
 .section-team{
     background-color:  #F4F4FD;
 }
-.section-portfolio h2{
-    font-size: 36px;
-    text-align: center;
-    color: #2e2f42;
-    line-height:1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-.section-portfolio h3{
+
+/*SECTION PORTFOLIO*/
+
+.h-cart{
     font-weight: 500;
     color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-size: 20px;
 }
-.section-portfolio p{
+.p-cart{
+
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
-    line-height: 1.2;
+    line-height: 1.5;
     font-weight: 400;
 }
 
@@ -165,12 +135,12 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none; /* Убирает подчеркивание */
+    text-decoration: none;
 }
     .logo-span-footer {
         color: #f4f4fd;
     }
-    .footer p{
+    .footer-text{
         font-size: 16px;
         letter-spacing: 0.02em;
         color: #F4F4FD;
