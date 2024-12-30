@@ -1,41 +1,47 @@
 /* Header styles */
 body {
-    font-family: 'Raleway', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    font-family: 'Raleway', sans-serif; /* Основной шрифт */
 }
 
 h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif; /* Для заголовков */
+    font-weight: 700; /* Жирность */
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-family: 'Raleway', sans-serif; /* Для текста */
+    font-weight: 400; /* Обычная жирность */
 }
-
-.links {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.links{
+    line-height:1.5;
+    letter-spacing:0.02em;
     color: #ffffff;
     font-weight: 500;
 }
-
-.links:hover:focus {
+.links:hover:focus{
     color: #404bbf;
 }
-
 .header-link,
 .header-info li {
     list-style-type: none;
+    font-style: normal
+}
+.kon{
+    font-style: normal
+}
+.header-info{
+    font-style: normal
 }
 
-.kon {
-    font-style: normal;
+.kon{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
-
+.kon:focus:hover{
+    color: #434455;
+}
+/* Стили для логотипа */
 .logo-header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -44,31 +50,40 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
+    text-decoration: none; /* Убирает подчеркивание */
 }
-
+/* Стили для span внутри логотипа */
 .logo-span {
     color: #2e2f42;
 }
-
-.contact-link {
-    color: #434455;
-    text-decoration: none;
-    transition: color 0.3s ease;
+.header-info {
+    font-style: normal;
 }
-
+.contact-link {
+    color: #434455; /* Цвет текста по умолчанию */
+    text-decoration: none; /* Убираем подчеркивание */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+/* Ховер и фокус для ссылок */
 .contact-link:hover,
 .contact-link:focus {
-    color: #404bbf;
+    color: #404bbf; /* Цвет текста при наведении и фокусе */
 }
-
+/* General styles */
+body {
+    color: #434455;
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+p {
+    font-size: 16px;
+}
 /* Button section styles */
 .button {
     text-align: center;
     background-color: #2e2f42;
 }
-
-.button-button {
+.button-button{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -77,41 +92,71 @@ p {
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-
-.button-button:hover:focus {
+.button-button:hover:focus{
     background-color: #404BBF;
     cursor: pointer;
 }
-
 .button-zag {
+
     letter-spacing: 0.02em;
     line-height: 1.07;
     font-size: 56px;
     color: white;
 }
-
 /* Feature section styles */
-.feature {
+.feature{
     font-size: 36px;
-    line-height: 1.11;
+    line-height:1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
 }
-
-.feature-text > li > h3 {
+.feature-text >li >h3{
     font-size: 20px;
-    font-weight: 500;
+    font-weight:500;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
-.feature-text > li > p {
+.feature-text >li >p{
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.feature-text li {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+/*OUR TEAM*/
+.our-team{
+    list-style-type: none;
+}
+.team-img{
+    background-color: #FFFFFF
+}
+
+.section-team{
+    background-color:  #F4F4FD;
+}
+
+/*SECTION PORTFOLIO*/
+
+.h-cart{
+    font-weight: 500;
+    color: #2e2f42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+}
+.p-cart{
+
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 /* Footer styles */
@@ -122,6 +167,7 @@ p {
 }
 
 .footer-logo {
+
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -131,12 +177,10 @@ p {
     color: #4d5ae5;
     text-decoration: none;
 }
-
 .logo-span-footer {
     color: #f4f4fd;
 }
-
-.footer-text {
+.footer-text{
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
