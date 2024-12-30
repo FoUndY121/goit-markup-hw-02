@@ -143,20 +143,23 @@ p {
 
 /*SECTION PORTFOLIO*/
 
-.h-cart{
+.hcart{
     font-weight: 500;
     color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-size: 20px;
 }
-.p-cart{
+.pcart{
 
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
     line-height: 1.5;
     font-weight: 400;
+}
+.img-portfolio{
+    background-color: #FFFFFF;
 }
 
 /* Footer styles */
