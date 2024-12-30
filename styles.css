@@ -1,11 +1,24 @@
 /* Header styles */
-.header-li{
+body {
+    font-family: 'Raleway', sans-serif; /* Основной шрифт */
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Для заголовков */
+    font-weight: 700; /* Жирность */
+}
+
+p {
+    font-family: 'Raleway', sans-serif; /* Для текста */
+    font-weight: 400; /* Обычная жирность */
+}
+.links{
     line-height:1.5;
     letter-spacing:0.02em;
-    color: #2e2f42;
+    color: #ffffff;
     font-weight: 500;
 }
-.header-li:hover:focus{
+.links:hover:focus{
     color: #404bbf;
 }
 .header-link,
@@ -13,12 +26,19 @@
     list-style-type: none;
     font-style: normal
 }
-.header-kon{
+    .kon{
+        font-style: normal
+    }
+    .header-info{
+        font-style: normal
+    }
+
+.kon{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
-.header-kon:focus:hover{
+.kon:focus:hover{
     color: #434455;
 }
 /* Стили для логотипа */
@@ -37,7 +57,17 @@
     color: #2e2f42;
 }
 .header-info {
-    text-align: right;
+    font-style: normal;
+}
+.contact-link {
+    color: #434455; /* Цвет текста по умолчанию */
+    text-decoration: none; /* Убираем подчеркивание */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+/* Ховер и фокус для ссылок */
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf; /* Цвет текста при наведении и фокусе */
 }
 /* General styles */
 body {
