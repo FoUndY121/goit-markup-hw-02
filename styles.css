@@ -13,9 +13,11 @@ p {
     font-weight: 400; /* Обычная жирность */
 }
 .links{
+
+    font-size: 16px;
     line-height:1.5;
     letter-spacing:0.02em;
-    color: #ffffff;
+    color: #2e2f42;
     font-weight: 500;
 }
 .links:hover:focus{
@@ -39,7 +41,7 @@ p {
     color:#434455;
 }
 .kon:focus:hover{
-    color: #434455;
+    color: #404bbf;
 }
 /* Стили для логотипа */
 .logo-header {
@@ -105,7 +107,6 @@ p {
 }
 /* Feature section styles */
 .feature{
-
     font-size: 36px;
     line-height:1.11;
     text-align: center;
@@ -126,7 +127,10 @@ p {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+.feature-text li {
+    list-style-type: none;
+    font-size: 16px;
+}
 
 /*OUR TEAM*/
 .our-team{
