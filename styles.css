@@ -20,19 +20,33 @@ p {
     color: #2e2f42;
     font-weight: 500;
 }
-.links:hover:focus{
+.links:hover{
     color: #404bbf;
 }
-.header-link,
-.header-info li {
-    list-style-type: none;
-    font-style: normal
+.links:focus{
+    color: #404bbf;
 }
+.header-link:hover:focus{
+    cursor:pointer;
+    color: #404bbf;
+}
+
+/*.header-link,*/
+/*.header-info li {*/
+/*    list-style-type: none;*/
+/*    font-style: normal*/
+/*}*/
 .kon{
     font-style: normal
 }
+.header-link:hover:focus{
+    color: #404bbf;
+}
 .header-info{
     font-style: normal
+}
+.button:focus:hover{
+    color:#404bbf;
 }
 
 .kon{
