@@ -156,9 +156,9 @@ p {
 .our-team{
     list-style-type: none;
 }
-.section-team > li >img{
-    background-color: #FFFFFF;
-}
+/*.section-team > li >img{*/
+/*    background-color: #FFFFFF;*/
+/*}*/
 .team-img{
     background-color: #FFFFFF
 }
