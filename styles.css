@@ -26,6 +26,7 @@ p {
 .links:focus{
     color: #404bbf;
 }
+
 .header-link:hover:focus{
     cursor:pointer;
     color: #404bbf;
