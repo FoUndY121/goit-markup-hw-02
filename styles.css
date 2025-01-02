@@ -84,14 +84,15 @@ p {
     font-style: normal;
 }
 .contact-link {
-    color: #434455; /* Цвет текста по умолчанию */
-    text-decoration: none; /* Убираем подчеркивание */
-    transition: color 0.3s ease; /* Плавный переход цвета */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
-/* Ховер и фокус для ссылок */
+
 .contact-link:hover,
 .contact-link:focus {
-    color: #404bbf; /* Цвет текста при наведении и фокусе */
+    color: #404bbf;
 }
 /* General styles */
 body {
