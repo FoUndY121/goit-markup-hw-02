@@ -37,7 +37,7 @@ p {
 /*    list-style-type: none;*/
 /*    font-style: normal*/
 /*}*/
-.kon{
+.kontacti{
     font-style: normal
 }
 .header-link:hover:focus{
@@ -54,15 +54,15 @@ p {
 
 }
 
-.kon{
+.kontacti{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
-.kon:focus {
+.kontacti:focus{
     color: #404bbf;
 }
-.kon:hover{
+.kontacti:hover{
     color: #404bbf;
 }
 /* Стили для логотипа */
@@ -124,7 +124,7 @@ p {
     background-color: #404BBF;
     cursor: pointer;
 }
-.button-button:focus{
+.button-button:hover{
     background-color: #404BBF;
     cursor: pointer;
 }
