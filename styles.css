@@ -46,8 +46,12 @@ p {
 .header-info{
     font-style: normal
 }
-.header-info:focus:hover{
+.header-info:focus{
     color:#404bbf;
+}
+.header-info:hover{
+    color: #404bbf;
+
 }
 
 .kon{
@@ -55,7 +59,10 @@ p {
     letter-spacing: 0.02em;
     color:#434455;
 }
-.kon:focus:hover{
+.kon:focus {
+    color: #404bbf;
+}
+.kon:hover{
     color: #404bbf;
 }
 /* Стили для логотипа */
@@ -113,7 +120,11 @@ p {
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-.button-button:hover:focus{
+.button-button:focus{
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.button-button:focus{
     background-color: #404BBF;
     cursor: pointer;
 }
@@ -159,12 +170,15 @@ p {
 /*.section-team > li >img{*/
 /*    background-color: #FFFFFF;*/
 /*}*/
-.team-img{
+.teamimg{
     background-color: #FFFFFF
 }
 
-.section-team , .team-img{
+.section-team {
     background-color:  #F4F4FD;
+}
+.teamimg{
+    background-color: #FFFFFF;
 }
 
 /*SECTION PORTFOLIO*/
